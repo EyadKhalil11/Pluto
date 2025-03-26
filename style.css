@@ -1,0 +1,190 @@
+/* General Styles */ 
+
+body { 
+
+    font-family: Arial, sans-serif; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    background-color: #000000; 
+    color: #a5a3f3; /* Change text color to white */
+
+} 
+
+/* Header and Navigation Bar */ 
+
+header { 
+
+    background-color: #000000; 
+
+    color: #a5a3f3; /* Change header text color to white */
+    padding: 15px; 
+
+    text-align: center; 
+
+} 
+
+nav ul { 
+
+    list-style-type: none; 
+
+    padding: 0; 
+
+} 
+
+nav ul li { 
+
+    display: inline; 
+
+    margin: 10px; 
+
+} 
+
+nav ul li a { 
+
+    color: #a5a3f3; /* Change navigation link color to white */
+    text-decoration: none; 
+
+} 
+
+/* Main Content */ 
+
+section { 
+
+    padding: 20px; 
+
+    text-align: center; 
+
+} 
+
+#bmwdiv {
+    float: right;
+    width: 300px;
+    border: 3px solid#a5a3f3;
+    padding: 0;
+    margin: 0;
+  }
+#shelbygtdiv {
+    float: right;
+    width: 300px;
+    border: 3px solid #a5a3f3;
+    padding: 0;
+    margin: 0;
+}
+#gt3rsdiv {
+    float: left;
+    width: 300px;
+    border: 3px solid  #a5a3f3
+    margin 0;
+}
+
+#logodiv {
+    float: center;
+    width: 150px;
+    border: 3px solid #a5a3f3;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Logo Centering and Resizing */
+#logodiv {
+    text-align: center; /* Centers the logo */
+    margin: 20px 0; /* Adds space around the logo */
+}
+ 
+#logo {
+    width: 220px; /* Resized to be much smaller */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Ensures it's centered inside the div */
+}
+
+#bmw {
+    width: 300px; /* Resized to be much smaller */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Ensures it's centered inside the div */
+}
+
+#shelbygt {
+    width: 300px; /* Resized to be much smaller */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Ensures it's centered inside the div */
+}
+
+/* Image Gallery - Ensures all images appear above the footer */
+
+#image-gallery {
+
+    display: flex; /* Aligns images in a row */
+
+    justify-content: center; /* Centers them horizontally */
+
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+
+    gap: 20px; /* Adds space between images */
+
+    padding: 20px 0; /* Adds space above and below */
+
+    background-color: #000000; /* Matches background */
+
+}
+ 
+/* Individual Image Boxes */
+
+.image-box {
+
+    width: 250px; /* Controls image box size */
+
+    border: 3px solid #a5a3f3; /* Adds a green border */
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    background-color: #f8f8f8; /* Light background */
+
+}
+ 
+/* Image Styling */
+
+.image-box img {
+
+    width: 100%; /* Makes images responsive */
+
+    height: auto;
+
+    border-radius: 5px; /* Soft corners */
+
+}
+ 
+/* Footer - Ensure it stays below the images */
+
+footer {
+
+    background-color: #a5a3f3;
+
+    color: #000000; /* Ensure footer text color remains black */
+    text-align: center;
+
+    padding: 10px;
+
+    position: relative; /* Prevents overlapping */
+
+    bottom: 0;
+
+    width: 100%;
+
+}
+
+
+
+
+
+
